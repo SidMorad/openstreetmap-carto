@@ -1,10 +1,10 @@
 // --- Parks, woods, other green things ---
 
-@grass: #cdebb0; // also meadow, common, garden, village_green
+@grass: #d2e4c8; // also meadow, common, garden, village_green #cdebb0
 @scrub: #b5e3b5;
-@forest: #add19e;       // Lch(80,30,135)
+@forest: #cbe6a3;       // Lch(80,30,135) #add19e
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #c8facc;         // Lch(94,30,145) also recreation_ground
+@park: #c9e6a3;         // Lch(94,30,145) also recreation_ground #c8facc
 @orchard: #aedfa3;
 
 // --- "Base" landuses ---
@@ -437,7 +437,7 @@
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
     [way_pixels >= 64] { polygon-gamma: 0.3;  }
   }
- 
+
   [feature = 'wetland_swamp'][zoom >= 8] {
     polygon-fill: @forest;
     [way_pixels >= 4]  { polygon-gamma: 0.75; }
@@ -716,7 +716,7 @@
       b/line-color: @tourism;
       b/line-opacity: 0.3;
       b/line-join: round;
-      b/line-cap: round;    
+      b/line-cap: round;
     }
     [zoom >= 17] {
       a/line-width: 2;
