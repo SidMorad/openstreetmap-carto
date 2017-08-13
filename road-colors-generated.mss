@@ -21,6 +21,6 @@
 @primary-low-zoom: #f3c380;
 @secondary-low-zoom: #e8eda0;
 @motorway-fill: #e892a2;
-@trunk-fill: #f7da98;     // #f9b29c
-@primary-fill: #fdfb96;   // #fcd6a4
+@trunk-fill: #fbc34a;     // #f9b29c
+@primary-fill: #fcff87;   // #fcd6a4
 @secondary-fill: #fafac8; // #f7fabf

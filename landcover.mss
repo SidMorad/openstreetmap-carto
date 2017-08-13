@@ -1,10 +1,10 @@
 // --- Parks, woods, other green things ---
 
-@grass: #d2e4c8; // also meadow, common, garden, village_green #cdebb0
+@grass: #c8dead; // also meadow, common, garden, village_green #cdebb0
 @scrub: #b5e3b5;
-@forest: #cbe6a3;       // Lch(80,30,135) #add19e
+@forest: #96d07b;       // Lch(80,30,135) #add19e
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #c9e6a3;         // Lch(94,30,145) also recreation_ground #c8facc
+@park: #cbe6a3;         // Lch(94,30,145) also recreation_ground #c8facc
 @orchard: #aedfa3;
 
 // --- "Base" landuses ---
