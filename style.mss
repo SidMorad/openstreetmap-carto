@@ -52,7 +52,11 @@ be used because Mapnik does not support SBIT TTF.
 /*
 A regular style.
 */
-@book-fonts:    "Noto Sans UI Regular",
+@book-fonts:    "Vazir Regular",
+                "Vazir UI Regular",
+                "Vazir Medium",
+                "Vazir UI Medium",
+                "Noto Sans UI Regular",
                 "Noto Sans CJK JP Regular",
                 "Noto Sans Armenian Regular",
                 "Noto Sans Balinese Regular",
@@ -124,7 +128,13 @@ A regular style.
 A bold style is available for almost all scripts. Bold text is heavier than
 regular text and can be used for emphasis. Fallback is a regular style.
 */
-@bold-fonts:    "Noto Sans UI Bold",
+@bold-fonts:    "Vazir Bold",
+                "Vazir UI Bold",
+                "Vazir Regular",
+                "Vazir UI Regular",
+                "Vazir Medium",
+                "Vazir UI Medium",
+                "Noto Sans UI Bold",
                 "Noto Sans CJK JP Bold",
                 "Noto Sans Armenian Bold",
                 "Noto Sans Bengali UI Bold",
@@ -203,7 +213,13 @@ regular text and can be used for emphasis. Fallback is a regular style.
 Italics are only available for the base font, not the other scripts.
 For a considerable number of labels this style will make no difference to the regular style.
 */
-@oblique-fonts: "Noto Sans UI Italic",
+@oblique-fonts: "Vazir Light",
+                "Vazir UI Light",
+                "Vazir Reqular",
+                "Vazir UI Regular",
+                "Vazir Medium",
+                "Vazir UI Medium",
+                "Noto Sans UI Italic",
                 "Noto Sans UI Regular",
                 "Noto Sans CJK JP Regular",
                 "Noto Sans Armenian Regular",
